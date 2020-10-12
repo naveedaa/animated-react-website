@@ -21,7 +21,6 @@ ReactDOM.render(
         <Route exact path="/about" element={<About />} />
         <Route exact path="/service" element={<Service />} />
         <Route exact path="/contact" element={<Contact />} />
-        {/* <Redirect to="/" /> */}
         </Routes>
       </Router>
     <Footer />
